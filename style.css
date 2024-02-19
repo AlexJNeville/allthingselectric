@@ -29,7 +29,7 @@ body, html {
     color: black;
 }
 .hero-image {
-    background-image: url('your-fullwidth-image.jpg'); /* Add your image here */
+    background-image: url('bikeim1.jpg'); /* Add your image here */
     height: 100vh; /* Use vh as a relative measurement to the viewport height */
     background-position: center;
     background-repeat: no-repeat;
