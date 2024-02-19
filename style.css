@@ -82,6 +82,7 @@ body, html {
     font-family: 'Courier New', monospace;
     font-size: 80px;
     color: silver;
+    font-weight: 200;
 }
 
 .product-container {
