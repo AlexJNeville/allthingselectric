@@ -76,7 +76,7 @@ body, html {
      width: 100%;
     padding-top: 35vh;
             /* Removed the negative padding-left as it is not a valid way to move content to the right */
-    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 11px #fff;
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff;
 }
 .titletext {
     font-family: Baskerville, serif;
