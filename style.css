@@ -90,6 +90,7 @@ body, html {
 .subtitle-cont {
     width:70%;
     margin: 0 15% 0 15%;
+    text-shadow: 0 0 2px #fff;
 }
 .subtitle {
     font-family: Baskerville, serif;
@@ -101,8 +102,9 @@ body, html {
     letter-spacing: .2rem;
 }
 .subtitle-cont2 {
-    width:70%;
-    margin: 0 20% 0 10%;
+    width:60%;
+    margin: 0 30% 0 10%;
+    text-shadow: 0 0 2px #fff;
 }
 .subtitle-2 {
     font-family: Baskerville, serif;
@@ -111,7 +113,7 @@ body, html {
     padding: 5px 30px;
     margin: 0; /* Removes default margin from h1 to control spacing more precisely */
     color: white;
-    letter-spacing: .2rem;
+    letter-spacing: .5rem;
 
 
 .product-container {
