@@ -3,33 +3,31 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
+    justify-content: center; /* Center horizontally */
+    max-width: 100%;
+    overflow-x: hidden;
 }
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    background-color: #333;
-    overflow: hidden;
-    margin: 0;
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    height: calc(45px);
+    background-image: linear-gradient(to right, #0b0d38,#01010a);
+    position: fixed;
+    width: calc(100%); /* Adjust for padding */
+    z-index: 1000;
+    box-sizing: border-box;
 }
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+.navbar a {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: silver;
     text-decoration: none;
+    padding: 15px 30px;
 }
-
-nav ul li a:hover {
-    background-color: #ddd;
+.navbar a:hover {
+    background-color: #9fbac4; 
     color: black;
 }
-
 .hero-image {
     background-image: url('your-fullwidth-image.jpg'); /* Add your image here */
     height: 100vh; /* Use vh as a relative measurement to the viewport height */
@@ -37,6 +35,41 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.line {
+    width: calc(100%);
+    height: calc(4vh);
+    background-color: black;
+    box-sizing: border-box;
+    padding-block: 20px;
+    opacity: 0.8;
+}
+.line-thin {
+    width: calc(66%);
+    height: 2px;
+    background-color: #bdbdbd;
+    box-sizing: border-box;
+    opacity: 1;
+    margin: -25px 22% 0 22%;
+}
+.line-thin-short {
+    width: calc(38%);
+    height: 2px;
+    background-color: #bdbdbd;
+    box-sizing: border-box;
+    opacity: 1;
+    margin: -25px 31% 0 31%;
+}
+
+.space {
+    width: calc(100%);
+    height: calc(4vh);
+    box-sizing: border-box;
+}
+.lessspace {
+    width: calc(100%);
+    height: calc(2vh);
+    box-sizing: border-box;
 }
 
 .hero-text {
