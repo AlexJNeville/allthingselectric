@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,15 +8,33 @@
 </head>
 <body>
 
-<div class="product-container">
-    <div class="product" onclick="copyElement(this)">
-        <img src="placeholder.jpg" alt="Product Image" class="product-image">
-        <h2 class="product-title">Product Title</h2>
-        <p class="product-description">Product Description Here</p>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <!-- Add other navbar items here -->
+    </ul>
+</nav>
+
+<div class="hero-image">
+    <div class="hero-text">
+        <h1>Welcome to Our Store</h1>
     </div>
-    <!-- You can duplicate the above div and change the img src, title, and description for more products okay -->
 </div>
 
-<script src="script.js"></script>
+<div class="product-container">
+    <a href="product1.html" class="product">
+        <img src="placeholder.jpg" alt="Product 1" class="product-image">
+        <h2 class="product-title">Product 1</h2>
+    </a>
+    <a href="product2.html" class="product">
+        <img src="placeholder.jpg" alt="Product 2" class="product-image">
+        <h2 class="product-title">Product 2</h2>
+    </a>
+    <a href="product3.html" class="product">
+        <img src="placeholder.jpg" alt="Product 3" class="product-image">
+        <h2 class="product-title">Product 3</h2>
+    </a>
+</div>
+
 </body>
 </html>
