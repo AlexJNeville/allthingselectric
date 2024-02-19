@@ -79,10 +79,12 @@ body, html {
     text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 11px #fff, 0 0 21px #fff, 0 0 23px #fff;
 }
 .titletext{
-    font-family: 'Courier New', monospace;
-    font-size: 80px;
-    color: silver;
-    font-weight: 200;
+    font-family: Baskerville, serif;
+    font-size: 130px;
+    text-decoration: none;
+    padding: 5px 30px;
+    margin: 0; /* Removes default margin from h1 to control spacing more precisely */
+    color: white;
 }
 
 .product-container {
