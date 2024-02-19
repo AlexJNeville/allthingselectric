@@ -87,6 +87,32 @@ body, html {
     color: white;
     letter-spacing: .2rem;
 }
+.subtitle-cont {
+    width:70%;
+    margin: 0 15% 0 15%;
+}
+.subtitle {
+    font-family: Baskerville, serif;
+    font-size: 70px;
+    text-decoration: none;
+    padding: 5px 30px;
+    margin: 0; /* Removes default margin from h1 to control spacing more precisely */
+    color: white;
+    letter-spacing: .2rem;
+}
+.subtitle-cont2 {
+    width:70%;
+    margin: 0 20% 0 10%;
+}
+.subtitle-2 {
+    font-family: Baskerville, serif;
+    font-size: 80px;
+    text-decoration: none;
+    padding: 5px 30px;
+    margin: 0; /* Removes default margin from h1 to control spacing more precisely */
+    color: white;
+    letter-spacing: .2rem;
+
 
 .product-container {
     display: flex;
