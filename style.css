@@ -76,7 +76,7 @@ body, html {
      width: 100%;
     padding-top: 35vh;
             /* Removed the negative padding-left as it is not a valid way to move content to the right */
-    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 11px #fff, 0 0 21px #fff, 0 0 23px #fff;
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 11px #fff;
 }
 .titletext {
     font-family: Baskerville, serif;
@@ -85,6 +85,7 @@ body, html {
     padding: 5px 30px;
     margin: 0; /* Removes default margin from h1 to control spacing more precisely */
     color: white;
+    letter-spacing: .2rem;
 }
 
 .product-container {
