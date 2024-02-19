@@ -104,6 +104,7 @@ body, html {
 .subtitle-cont2 {
     width:60%;
     margin: 5% 40% 0 0;
+    left: 50%;
     text-shadow: 0 0 2px #fff, 0 0 5px #fff;
 }
 .subtitle-2 {
