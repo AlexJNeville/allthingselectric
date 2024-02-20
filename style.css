@@ -96,13 +96,13 @@ body, html {
     font-family: Baskerville, serif;
     font-size: 70px;
     text-decoration: none;
-    margin: -3% 0 0 20%; /* Removes default margin from h1 to control spacing more precisely */
+    margin: 0; /* Removes default margin from h1 to control spacing more precisely */
     color: white;
     letter-spacing: .2rem;
 }
 .subtitle-cont2 {
     width:60%;
-    right: 30%;
+    margin: 0 20% 0 0;
     text-shadow: 0 0 2px #fff, 0 0 5px #fff;
 }
 .subtitle-2 {
