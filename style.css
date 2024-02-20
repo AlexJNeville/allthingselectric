@@ -137,7 +137,7 @@ body, html {
     padding: 30px;
   width: 100%; /* Sets the width of the grid container to 100% of its parent */
     top: 20px;
-
+    background-color: grey;
 }
 .grid-item {
   height: auto; /* Fixed height for each item, change as needed */
