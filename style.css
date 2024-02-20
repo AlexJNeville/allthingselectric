@@ -136,9 +136,8 @@ body, html {
   grid-gap: 40px; /* Adjusts the gap between grid items */
     padding: 30px;
   width: 80%; /* Sets the width of the grid container to 100% of its parent */
-    top: 20px;
-    background-color: #c7c7c7;
-    margin: 10% 10% 0 10%;
+    background-image: linear-gradient(to right, #c4c4c4,#fff, );
+    margin: 0 10% 0 10%;
 }
 .grid-item {
   height: auto; /* Fixed height for each item, change as needed */
