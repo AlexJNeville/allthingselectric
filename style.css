@@ -114,8 +114,7 @@ body, html {
     margin: 0; /* Removes default margin from h1 to control spacing more precisely */
     color: white;
     letter-spacing: .5rem;
-
-
+}
 .product-container {
     display: flex;
     justify-content: center;
@@ -131,6 +130,22 @@ body, html {
 .product-image {
     width: 100%;
     height: auto;
+}
+.grid-container {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 columns, each taking up equal space */
+  grid-gap: 10px; /* Adjusts the gap between grid items */
+  width: 100%; /* Sets the width of the grid container to 100% of its parent */
+    top: 20px;
+
+}
+.grid-item {
+  height: auto; /* Fixed height for each item, change as needed */
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  flex-direction: column;
 }
 @media (max-width:750px) {
     .subtitle-2 {
