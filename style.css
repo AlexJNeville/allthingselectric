@@ -135,9 +135,10 @@ body, html {
   grid-template-columns: repeat(2, 1fr); /* Creates 2 columns, each taking up equal space */
   grid-gap: 40px; /* Adjusts the gap between grid items */
     padding: 30px;
-  width: 100%; /* Sets the width of the grid container to 100% of its parent */
+  width: 80%; /* Sets the width of the grid container to 100% of its parent */
     top: 20px;
-    background-color: grey;
+    background-color: #c7c7c7;
+    margin: 10% 10% 0 10%;
 }
 .grid-item {
   height: auto; /* Fixed height for each item, change as needed */
@@ -168,12 +169,21 @@ body, html {
 }
 .p-base {
     font-family: Baskerville, serif;
-    font-size: 21px;
+    font-size: 32px;
     text-decoration: none;
     text-align: center;
     color: black;
     padding: 30px;
     letter-spacing: .3rem;
+}
+.subheading {
+    font-family: Baskerville, serif;
+    font-size: 55px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 30px;
+    letter-spacing: .4rem;
 }
 @media (max-width:750px) {
     .subtitle-2 {
