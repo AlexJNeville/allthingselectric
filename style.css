@@ -89,7 +89,7 @@ body, html {
 }
 .subtitle-cont {
     width:70%;
-    margin: 5% 15% 0 15%;
+    margin: 0 15% 0 15%;
     text-shadow: 0 0 2px #fff;
 }
 .subtitle {
@@ -103,7 +103,8 @@ body, html {
 }
 .subtitle-cont2 {
     width:60%;
-    margin: 5% 40% 0 0;
+    margin: 0 40% 0 0;
+    right: 30%;
     text-shadow: 0 0 2px #fff, 0 0 5px #fff;
 }
 .subtitle-2 {
