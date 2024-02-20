@@ -96,8 +96,7 @@ body, html {
     font-family: Baskerville, serif;
     font-size: 70px;
     text-decoration: none;
-    padding: 5px 30px;
-    margin: 0; /* Removes default margin from h1 to control spacing more precisely */
+    margin: -3% 0 0 20%; /* Removes default margin from h1 to control spacing more precisely */
     color: white;
     letter-spacing: .2rem;
 }
