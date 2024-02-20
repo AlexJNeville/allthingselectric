@@ -101,8 +101,7 @@ body, html {
     letter-spacing: .2rem;
 }
 .subtitle-cont2 {
-    width: 60% ;
-    margin: 0 0 0 20%;
+    width: 100% ;
     text-shadow: 0 0 2px #fff, 0 0 5px #fff;
 }
 .subtitle-2 {
@@ -113,6 +112,7 @@ body, html {
     margin: 0; /* Removes default margin from h1 to control spacing more precisely */
     color: white;
     letter-spacing: .5rem;
+    text-align: center;
 }
 .product-container {
     display: flex;
