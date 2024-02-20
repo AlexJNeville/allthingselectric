@@ -101,8 +101,8 @@ body, html {
     letter-spacing: .2rem;
 }
 .subtitle-cont2 {
-    width:60%;
-    margin: 0 20% 0 0;
+    width: 60% ;
+    margin: 0 0 0 20%;
     text-shadow: 0 0 2px #fff, 0 0 5px #fff;
 }
 .subtitle-2 {
