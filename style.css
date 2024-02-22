@@ -139,7 +139,7 @@ body, html {
     background-image: linear-gradient(to right, #c4c4c4,#fff,#e3e3e3);
     margin: 0 10% 0 10%;
     opacity: 0;
-    transform: translateX(-300px);
+    transform: translateY(300px);
     transition: all 0.3s ease-out;
 }
 .grid-container-animation {
@@ -151,7 +151,7 @@ body, html {
     background-image: linear-gradient(to right, #c4c4c4,#fff,#e3e3e3);
     margin: 0 10% 0 10%;
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 
 }
 .grid-item {
