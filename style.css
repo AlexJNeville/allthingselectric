@@ -138,6 +138,21 @@ body, html {
   width: 80%; /* Sets the width of the grid container to 100% of its parent */
     background-image: linear-gradient(to right, #c4c4c4,#fff,#e3e3e3);
     margin: 0 10% 0 10%;
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: all 0.3s ease-out;
+}
+.grid-container-animation {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 columns, each taking up equal space */
+  grid-gap: 40px; /* Adjusts the gap between grid items */
+    padding: 30px;
+  width: 80%; /* Sets the width of the grid container to 100% of its parent */
+    background-image: linear-gradient(to right, #c4c4c4,#fff,#e3e3e3);
+    margin: 0 10% 0 10%;
+    opacity: 1;
+    transform: translateX(0);
+
 }
 .grid-item {
   height: auto; /* Fixed height for each item, change as needed */
