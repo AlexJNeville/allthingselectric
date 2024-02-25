@@ -1,22 +1,19 @@
-const theanimation = document.querySelectorAll('.grid-container')
+const boxes = document.
+querySelectorAll('.box');
+window.addEventListener('scroll', checkBoxes);
 
-const observer1 = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('grid-container-animation')
-        }
-            else {
-                entry.target.classList.remove('grid-container-animation')
-            }
-        
-    })
-},
-   { threshold: 0.1
-   });
-//
-  for (let i = 0; i < theanimation.length; i++) {
-   const elements = theanimation[i];
+checkBoxes();
 
-    observer1.observe(elements);
-  } 
+function checkBoxes() {
+  const triggerBottom = window.innerHeight/ 5 * 4;
+  boxes.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top;
+
+    if (boxTop < triggerBottom) {
+    box.classList.add('show');
+    } else {
+      box.classList.remove('show');
+    }
+  });
+}
 
